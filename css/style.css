@@ -18,7 +18,7 @@ html{
 }
 
 body{
-    font-family:'Inter',sans-serif;
+    font-family:'Inter',;
     background:#0B0F19;
     color:#fff;
 }
@@ -450,4 +450,18 @@ footer p{
 
     }
 
+}
+/* ==========================
+   SCROLL ANIMATION
+========================== */
+
+.movies{
+    opacity:0;
+    transform:translateY(40px);
+    transition:.8s;
+}
+
+.movies.show{
+    opacity:1;
+    transform:translateY(0);
 }
